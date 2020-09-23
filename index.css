@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(221, 221, 221);
+}
+#boxesHolder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.box {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 0px 5% 5% 0px;
+}
+.box:hover {
+    cursor: pointer;
+}
+.greyBox {
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    margin: 0px 5% 5% 0px;
+}
